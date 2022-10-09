@@ -1,0 +1,19 @@
+.search-panel{
+    @apply w-1/4;
+    .search-panel-content{
+        @apply pt-6 p-4 px-6 h-screen flex flex-col border-[#21262d] border-r ;
+        .search-panel-head-text{
+            @apply font-semibold text-[#c9d1d9] mb-4;
+        }
+        .search-panel-button{
+            @apply text-white font-semibold bg-[#238636] duration-300 hover:bg-[#2d9b43] px-2 py-1 rounded-md mt-2;
+        }
+        .credits-head-text{
+            @apply font-semibold text-[#c9d1d9] mt-4 mb-2;
+        }
+        .credits-description{
+            @apply text-[#c9d1d9] text-xs;
+        }
+    }
+    background-color: #0d1117;
+}

@@ -1,0 +1,46 @@
+.header{
+    @apply p-4 md:px-6 justify-center items-center text-center flex md:justify-between bg-[#161b22] h-16 shadow-md;
+    .nav-menu{
+        @apply items-center flex;
+    }
+    .nav-items{
+        @apply  hidden md:flex font-semibold text-[#f0f6fc] text-sm  ml-4;
+        a{
+            @apply hover:opacity-70;
+        }
+    }
+    .logo{
+        @apply hover:opacity-70 cursor-pointer;
+        #github-svg{
+            fill: white;
+        }
+    }
+
+.search-bar{
+    @apply  ml-4 text-sm relative items-center flex justify-end;
+    .search-input{
+        width: 15.5rem;
+        @apply border bg-[#0d1117]  border-[#30363d] px-2 py-1 md:focus:w-96 duration-200 focus:border-2 text-[#a0a9b3] rounded-md ;
+    }
+}
+
+.mobile-about{
+    @apply  text-sm text-white ml-2 md:hidden flex;
+}
+.about-me-header{
+    @apply hidden md:flex  items-center gap-1 ;
+    .dropdown-caret{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    content: "";
+    border-style: solid;
+    border-width: 4px 4px 0;
+    border-right-color: #0000;
+    border-bottom-color: #0000;
+    border-left-color: #0000;
+    }
+}
+
+}
